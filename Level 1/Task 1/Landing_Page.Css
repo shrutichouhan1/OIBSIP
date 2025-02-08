@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0px ;
+    /* box-sizing: border-box; */
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Header Section */
+  .hero {
+    background-color: #fee0e0;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 40px 70px 0px 70px;
+  }
+  
+  .hero h1 {
+    font-size: 4.0rem;
+    color: #333;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+    color: #a71212;
+  }
+  
+  .hero h5 {
+    color: #555;
+  }
+  
+  .hero h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    color: #555;
+  }
+
+/* Logo Section Alignment */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: auto;
+  /* justify-content: right; */
+  justify-content: flex-end; /* Align content to the right */
+ padding: 20px;
+}
+
+.dropdown-container #id{
+  color: transparent;
+}
+
+  .dropdown-container a i {
+  margin-left: 970px;
+  height: 20px;
+  width: 20px;
+}
+
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(4, 127, 4);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: rgb(2, 70, 2);
+  }
+
+/* Features Section */
+.features {
+  background-color: #fff;
+  padding: 20px 200px 20px 300px ;
+  align-items: center;
+}
+
+.features .container {
+    Display: grid;
+    Grid-template-columns: repeat(2, 1fr);
+    Align-items: center;
+    width: 100%;
+}
+  
+.feature-item {
+  background: white;
+  flex: 1;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+  .feature-item h2 {
+    font-size: 2.1rem;
+    line-height: 1.0;
+  }
+  
+ .feature-item p u{
+color: green;
+padding-left: 0%;
+margin-left: 0px;
+  }
+
+.contain2{
+  margin: 10px 150px 0px 170px;
+  justify-content: space-evenly;
+}
+
+.container3 {
+  display: flex;        
+  justify-content: space-between; 
+}
+
+/* Style for the individual boxes */
+.box {
+  height: 150px;             
+  background-color: white; 
+ padding-left: 10;
+  box-sizing: border-box;   
+  display: inline-block;
+}
+
+.contain4{
+  color: rgb(15, 14, 14);
+  margin: 10px 60px 70px 70px;
+  /* height: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  font-size: 1.7rem;
+  line-height: 1.0;
+}
+.contain4 ul{
+ padding: 0;  
+}
+ul h3 {
+  display: flex;
+  font-size: 1.7rem;
+  color: #1c1919;
+}
+
+ul p {
+  display: block;
+  font-size: .84rem;
+  color: #1c1919;
+  margin-top: 10px;
+}
+
+ p u{
+  font-size: 1rem;
+  color: green;
+  margin-bottom: 50px;
+  margin-left: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Servers Section */
+.servers {
+  background-image: url("C:/Users/win11/Downloads/expressvpn.jpg");
+  /* background-image: url("C:/Users/win11/Downloads/ultra.jpeg"); */
+  text-align: center;
+  background-size: cover; /* Optional: Ensures the background image covers the element */
+  background-repeat: no-repeat;
+  height: 570px;
+  margin: 50px 0px 50px 0px;
+  background-color: #f4f4f4;
+  width: calc(100% );        
+    display: flex;
+  flex-direction: column;  /* Stack children vertically */
+  justify-content: space-between; 
+  padding: 20px;
+  box-sizing: border-box;  
+}
+
+.server-stats {
+  display: flex;
+  flex-direction: column;  /* Arrange stats vertically */
+  align-items: flex-end;  /* Align the stats to the right */
+  /* gap:px; */
+  font-size: 38px;
+  margin-top: 100px;
+}
+ 
+.servers h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.server-stats p {
+  font-size: 1.3rem;
+  margin-left: 91%;
+  align-items: flex-end;
+  margin-bottom: 20px;
+
+}
+
+.server-stats b {
+  font-size: 3.3rem;
+  margin-left: 88%;
+  line-height: 20px;
+  align-items: flex-end;
+}
+
+.servers a{
+  justify-content: flex-end; 
+  margin-bottom: 10px;
+}
+
+.servers .link {
+  margin-top: auto;  /* Push the link to the bottom */
+  text-align: center; /* Center the link text */
+  font-size: 1.5rem;
+  color: maroon;
+  text-decoration: none;
+}
+
+.servers .link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+.container img :hover{
+    border: #0ef;
+}
+
